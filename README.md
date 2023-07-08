@@ -1,7 +1,7 @@
 # Flask_tutorials
 Flask Tutorial with Different inputs using python
 
-ATM 
+:atm: 
   simple ATM related application using Flask
 
 Loan Prediction 
