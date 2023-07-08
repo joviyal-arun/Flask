@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="static/app.css">
+</head>
+<body>
+<div>
+    <form action="/predict"method="post">
+      <div class="row">
+          <div class="col-md-12">
+        <h1><center>Loan Prediction Machine Learning</center> </h1>
+
+	 <title><center>Loan Prediction Machine Learning </center></title>
+          <legend><span class="number"></span><center>Basic Info</center></legend>
+
+          <label>Gender:</label>
+          <input type="radio" id="Male" value="Male" name="Gender"><label for="Male" class="light">Male</label>
+          <input type="radio" id="Female" value="Female" name="Gender"><label for="Female" class="light">Female</label><br>
+          <br>
+<br>
+
+          <label for="Married history">Married:</label>
+          <select id="Married history" name="Married">
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+          </select>
+
+<br>
+<br>
+          <label for="dependents">Dependent:</label>
+          <select id="dependents" name="Dependents">
+              <option value="0">Not applicable</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3 or more</option>
+          </select>
+<br>
+<br>
+          <label for="Education">Education level:</label>
+          <select id="education" name="Education">
+              <option value="1">Graduate</option>
+              <option value="0">Not graduate</option>
+          </select>
+<br>
+<br>
+          <label for="SelfEmployed">Employment status:</label>
+          <select id="selfemployed" name="Self_Employed">
+              <option value="0">Not self employed</option>
+              <option value="1">Self employed</option>
+          </select>
+<br>
+<br>
+          <label for="ApplicantIncome">Current monthly income:</label>
+          <input type="number" id="ApplicantIncome" name="ApplicantIncome">
+<br>
+<br>
+          <label for="CoapplicantIncome">Spouse's income (if not married put 0):</label>
+          <input type="number" id="CoapplicantIncome" name="CoapplicantIncome">
+<br>
+<br>
+          <label for="LoanAmount">Desired loan amount:</label>
+          <input type="number" id="LoanAmount" name="LoanAmount">
+<br>
+<br>
+          <label for="LoanTerm">Chosen loan term:</label>
+          <select id="LoanTerm" name="Loan_Amount_Term">
+              <option value="0">Loan term</option>
+              <option value="12">12 days</option>
+              <option value="36">36 days</option>
+              <option value="60">2 months</option>
+              <option value="84">84 days</option>
+              <option value="120">4 months</option>
+              <option value="180">6 months</option>
+              <option value="240">8 months</option>
+              <option value="300">10 months</option>
+              <option value="360">1 year</option>
+              <option value="480">16 months</option>
+          </select>
+<br>
+<br>
+
+          <label for="Credit history">Credit history:</label>
+          <select id="credit history" name="Credit_History">
+              <option value="1">Yes</option>
+              <option value="0">No</option>
+          </select>
+<br>
+<br>
+          <label>Geographical area:</label>
+          <input type="checkbox" id="Semiurban" value="0" name="Property_Area"><label class="light" for="semiurban">Semiurban</label>
+          <input type="checkbox" id="urban" value="1" name="Property_Area"><label class="light" for="urban">Urban</label>
+          <input type="checkbox" id="rural" value="2" name="Property_Area"><label class="light" for="rural">Rural</label>
+          <br>
+          <br>
+		<label>Choose Alogrithm</label>
+<br>
+          <input type="radio" id="KNN" value="0" name="group"><label class="light" for="semiurban">KNN</label>
+          <input type="radio" id="RFC" value="1" name="group"><label class="light" for="urban">RFC</label>
+          <input type="radio" id="SVM" value="2" name="group"><label class="light" for="rural">SVM</label>
+
+	<br>
+
+          <br>
+
+        <button type="submit">SUMBIT</button>
+
+    </form>
+    <br>
+    <br>
+    {{ prediction_text }}
+      </div>
+       </div>
+
+</body>
+</html>
