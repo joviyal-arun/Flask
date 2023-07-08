@@ -13,4 +13,4 @@ Flask Tutorial with Different inputs using python
 :basecamp:
   Image uploading using Flask
 
-**How to run the code avaliable in each folder and follow the running procedure**
+**How to run the code that procedure avaliable in each folder and follow the procedure**
