@@ -8,6 +8,5 @@ Flask Tutorial with Different inputs using python
   Loan Prediction using machine learning using Flask 
 
 :arrow_right:	
-
   Image processing Thresholding Techniquies using Flask 
     
