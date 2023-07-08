@@ -9,4 +9,7 @@ Flask Tutorial with Different inputs using python
 
 :arrow_right:	
   Image processing Thresholding Techniquies using Flask 
+
+:basecamp:
+  Image uploading using Flask
     
