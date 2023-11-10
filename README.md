@@ -2,15 +2,21 @@
 Flask Tutorial with Different inputs using python
 
 :atm: 
-  simple ATM related application using Flask
+  1 - simple ATM related application using Flask
 
 :beginner:
-  Loan Prediction using machine learning using Flask 
+  2 - Loan Prediction using machine learning using Flask 
 
 :arrow_right:	
-  Image processing Thresholding Techniquies using Flask 
+  3 - Image processing Thresholding Techniquies using Flask 
 
 :basecamp:
-  Image uploading using Flask
+  4 - Image uploading using Flask
+
+📚
+  5 - Object Detection & Classification
+
+
+  
 
 **How to run the code that procedure avaliable in each folder and follow the procedure**
