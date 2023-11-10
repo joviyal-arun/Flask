@@ -1,5 +1,5 @@
 # Flask_tutorials
-Flask Tutorial with Different inputs using python
+Flask Tutorial Related Simple Application
 
 :atm: 
   1 - simple ATM related application using Flask
