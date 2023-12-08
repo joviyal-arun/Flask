@@ -1,20 +1,23 @@
 # Flask_tutorials
 Flask Tutorial Related Simple Application
 
+🎷
+  - How to pass different kind of input through the API like Text,image,string,video 
+
 :atm: 
-  1 - simple ATM related application using Flask
+   - simple ATM related application using Flask
 
 :beginner:
-  2 - Loan Prediction using machine learning using Flask 
+   - Loan Prediction using machine learning using Flask 
 
 :arrow_right:	
-  3 - Image processing Thresholding Techniquies using Flask 
+   - Image processing Thresholding Techniquies using Flask 
 
 :basecamp:
-  4 - Image uploading using Flask
+   - Image uploading using Flask
 
 📚
-  5 - Object Detection & Classification
+   - Object Detection & Classification
 
 
   
